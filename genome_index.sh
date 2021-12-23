@@ -14,3 +14,4 @@ hisat2-build /data/courses/rnaseq/toxoplasma_de/genome/Mus_musculus.GRCm39.dna.p
 
 
 
+ 
