@@ -24,3 +24,4 @@ samtools sort -@ 4 -o ./${sample_names[$SLURM_ARRAY_TASK_ID]}.bam ./${sample_nam
 rm ./${sample_names[$SLURM_ARRAY_TASK_ID]}_unsorted.bam
 
 samtools index ${sample_names[$SLURM_ARRAY_TASK_ID]}.bam
+ 
