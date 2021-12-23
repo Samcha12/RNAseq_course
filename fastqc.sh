@@ -33,4 +33,4 @@ fastqc -t 4 *.fastq.gz
 #srun  --mem=25G --cpus-per-task=2 --time=01:00:00 --pty bash
 #add module : module add UHTS/Analysis/SeqKit/0.13.2
 #run seqkit stat *.gz > fastq_stats.txt
-#copy locally
+#copy locally 
